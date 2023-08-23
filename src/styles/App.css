@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+*{
+  font-family: 'Indie Flower';
+}
+
+.full-container{
+  width: 100%;
+  height: 100vh;
+  background-image: url('../images/sunflowers-3292932_1920.jpg');
+  background-size: cover; /*cubre todo el fondo*/
+  background-repeat: no-repeat;  
+}
+
+.title{
+  font-size: 48px;
+  text-align: center;
+  padding-top: 10px;
+  text-shadow: 2px 2px whitesmoke;
+}
+
+.accept-btn{
+  width: 40px;
+  padding: 10px;
+}
+
+.delete-btn{
+  width: 30px;
+  padding: 10px;
+}
+
+.input{
+  padding-left: 10px;
+  margin-left: 20px;
+  width: 60%;
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 30px;
+  font-size: 14px;
+}
