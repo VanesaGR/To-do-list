@@ -35,12 +35,12 @@ function App() {
       <img src={acceptImg} alt='accept' onClick={addTask} className='accept-btn' id='accept-btn'/>
       <div className='task-container'>
         {tasks.map((task, index) => (
-          <div key={index} className='task-item'>
+          <div className='line'>
+            <div key={index} className='task-item'>
             {task}
-            <div className='delete-btn' id='delete-btn' onClick={() => removeTask(index)}>
-              <img src={cancelImg} alt='delete' />
-            </div>
           </div>
+          <img src={cancelImg} alt='delete' className='delete-btn' onClick={() => removeTask(index)} />
+      </div>
         ))}
       </div>
     </div>
