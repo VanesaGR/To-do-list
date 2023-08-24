@@ -25,8 +25,8 @@ function App() {
   return (
       <div className='full-container'>
       <h1 className='title'>To-do List</h1>
-      <input
-        type="text"
+      <textarea
+        maxLength={250}
         value={newTask}
         onChange={(e) => setNewTask(e.target.value)}
         placeholder="Nueva tarea"
